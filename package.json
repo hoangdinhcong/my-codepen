@@ -1,0 +1,18 @@
+{
+  "name": "my-codepen",
+  "version": "1.0.0",
+  "description": "html pet project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-base": "node-sass -w base/scss/ -o base/css/ --recursive",
+    "watch-sass-base": "node-sass base/scss/ -o base/css --watch",
+    "compile-sass-base": "node-sass base/scss/ -o base/css"
+  },
+  "author": "hoangdinhcong",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1"
+  }
+}
