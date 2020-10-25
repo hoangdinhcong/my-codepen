@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass-base": "node-sass -w base/scss/ -o base/css/ --recursive",
-    "watch-sass-base": "node-sass base/scss/ -o base/css --watch",
-    "compile-sass-base": "node-sass base/scss/ -o base/css"
+    "watch-sass-base": "node-sass base/scss/ -o base/css --watch --recursive",
+    "compile-sass-base": "node-sass base/scss/ -o base/css --recursive",
+    "watch-sass-folder-hover": "node-sass folder-hover/scss/ -o folder-hover/css --watch --recursive",
+    "compile-sass-folder-hover": "node-sass folder-hover/scss/ -o folder-hover/css --recursive"
   },
   "author": "hoangdinhcong",
   "license": "ISC",
