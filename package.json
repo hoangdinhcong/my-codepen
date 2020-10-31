@@ -10,7 +10,9 @@
     "watch-sass-folder-hover": "node-sass folder-hover/scss/ -o folder-hover/css --watch --recursive",
     "compile-sass-folder-hover": "node-sass folder-hover/scss/ -o folder-hover/css --recursive",
     "watch-sass-product-card": "node-sass product-card/scss/ -o product-card/css --watch --recursive",
-    "compile-sass-product-card": "node-sass product-card/scss/ -o product-card/css --recursive"
+    "compile-sass-product-card": "node-sass product-card/scss/ -o product-card/css --recursive",
+    "watch-sass-image-hover-effect": "node-sass image-hover-effect/scss/ -o image-hover-effect/css --watch --recursive",
+    "compile-sass-image-hover-effect": "node-sass image-hover-effect/scss/ -o image-hover-effect/css --recursive"
   },
   "author": "hoangdinhcong",
   "license": "ISC",
