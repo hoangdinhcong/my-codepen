@@ -12,7 +12,9 @@
     "watch-sass-product-card": "node-sass product-card/scss/ -o product-card/css --watch --recursive",
     "compile-sass-product-card": "node-sass product-card/scss/ -o product-card/css --recursive",
     "watch-sass-image-hover-effect": "node-sass image-hover-effect/scss/ -o image-hover-effect/css --watch --recursive",
-    "compile-sass-image-hover-effect": "node-sass image-hover-effect/scss/ -o image-hover-effect/css --recursive"
+    "compile-sass-image-hover-effect": "node-sass image-hover-effect/scss/ -o image-hover-effect/css --recursive",
+    "watch-sass-sliding-sign-in-sign-up": "node-sass sliding-sign-in-sign-up/scss/ -o sliding-sign-in-sign-up/css --watch --recursive",
+    "compile-sass-sliding-sign-in-sign-up": "node-sass sliding-sign-in-sign-up/scss/ -o sliding-sign-in-sign-up/css --recursive"
   },
   "author": "hoangdinhcong",
   "license": "ISC",
